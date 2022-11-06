@@ -1,0 +1,23 @@
+package com.project.videoapp.net.responses
+
+
+import kotlinx.serialization.SerialName
+import kotlinx.serialization.Serializable
+
+@Serializable
+data class Response(
+    @SerialName("etag")
+    val etag: String,
+    @SerialName("items")
+    val items: List<Item>,
+    @SerialName("kind")
+    val kind: String,
+    @SerialName("nextPageToken")
+    val nextPageToken: String,
+    @SerialName("prevPageToken")
+    val prevPageToken: String? = null,
+    @SerialName("pageInfo")
+    val pageInfo: PageInfo,
+    @SerialName("regionCode")
+    val regionCode: String
+)

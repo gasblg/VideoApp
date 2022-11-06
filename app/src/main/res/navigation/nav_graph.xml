@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/videosFragment">
+
+    <fragment
+        android:id="@+id/videosFragment"
+        android:name="com.project.videoapp.ui.fragments.videos.VideosFragment"
+        android:label="VideosFragment" >
+        <action
+            android:id="@+id/action_videosFragment_to_videoFragment"
+            app:destination="@id/videoFragment" />
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/videoFragment"
+        android:name="com.project.videoapp.ui.fragments.video.VideoFragment"
+        android:label="VideoFragment" >
+
+
+        <action
+            android:id="@+id/action_call_B"
+            app:destination="@+id/videosFragment"
+            app:popUpTo="@id/videoFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>
