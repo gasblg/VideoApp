@@ -8,26 +8,26 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.project.videoapp.core.DateManager
+import com.project.videoapp.data.database.entities.Video
 import com.project.videoapp.databinding.ItemVideosBinding
-import com.project.videoapp.net.responses.Item
 
 
 class VideosAdapter(val dateManager: DateManager) :
-    PagingDataAdapter<Item, VideosAdapter.VideosHolder>(DIFF_CALLBACK) {
+    PagingDataAdapter<Video, VideosAdapter.VideosHolder>(DIFF_CALLBACK) {
 
     companion object {
-        private val DIFF_CALLBACK = object : DiffUtil.ItemCallback<Item>() {
+        private val DIFF_CALLBACK = object : DiffUtil.ItemCallback<Video>() {
             override fun areItemsTheSame(
-                oldConcert: Item,
-                newConcert: Item
+                oldVideo: Video,
+                newVideo: Video
             ) =
-                oldConcert == newConcert
+                oldVideo.tag == newVideo.tag
 
             override fun areContentsTheSame(
-                oldConcert: Item,
-                newConcert: Item
+                oldVideo: Video,
+                newVideo: Video
             ) =
-                oldConcert == newConcert
+                oldVideo == newVideo
         }
     }
 
@@ -52,22 +52,22 @@ class VideosAdapter(val dateManager: DateManager) :
         holder.bind(getItem(position))
     }
 
-    private lateinit var onItemClickListener: ((item: Item) -> Unit)
+    private lateinit var onItemClickListener: ((item: Video) -> Unit)
 
-    fun setOnItemClickListener(onItemClickListener: (item: Item) -> Unit) {
+    fun setOnItemClickListener(onItemClickListener: (item: Video) -> Unit) {
         this.onItemClickListener = onItemClickListener
     }
 
     inner class VideosHolder(private val binding: ItemVideosBinding) :
         RecyclerView.ViewHolder(binding.root) {
-        fun bind(item: Item?) {
+        fun bind(item: Video?) {
             binding.apply {
                 item?.let { videoItem ->
-                    tvDate.text = dateManager.getRuDateFormat(videoItem.snippet.publishTime)
-                    tvTitle.text = videoItem.snippet.title
-                    tvDescription.text = videoItem.snippet.description
+                    tvDate.text = dateManager.getRuDateFormat(videoItem.date)
+                    tvTitle.text = videoItem.title
+                    tvDescription.text = videoItem.description
                     Glide.with(this.root)
-                        .load(videoItem.snippet.thumbnails.medium.url)
+                        .load(videoItem.imageUrl)
                         .diskCacheStrategy(DiskCacheStrategy.DATA)
                         .dontAnimate()
                         .into(ivLogo)
@@ -78,8 +78,6 @@ class VideosAdapter(val dateManager: DateManager) :
             }
         }
     }
-
-
 }
 
 

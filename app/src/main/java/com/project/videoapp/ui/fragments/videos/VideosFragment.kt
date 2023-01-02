@@ -8,19 +8,17 @@ import androidx.core.view.isVisible
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.Navigation
+import androidx.paging.CombinedLoadStates
 import androidx.paging.LoadState
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.project.videoapp.R
 import com.project.videoapp.core.DateManager
+import com.project.videoapp.data.database.entities.Video
 import com.project.videoapp.databinding.FragmentVideosBinding
-import com.project.videoapp.net.responses.Item
-import com.project.videoapp.ui.fragments.video.VideoFragment.Companion.DATE
-import com.project.videoapp.ui.fragments.video.VideoFragment.Companion.DESCRIPTION
-import com.project.videoapp.ui.fragments.video.VideoFragment.Companion.TITLE
 import com.project.videoapp.ui.fragments.video.VideoFragment.Companion.YOUTUBE_VIDEO_ID
 import com.project.videoapp.ui.viewmodel.ViewModelFactory
 import dagger.android.support.DaggerFragment
-import kotlinx.coroutines.flow.collectLatest
+import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
@@ -29,7 +27,6 @@ class VideosFragment : DaggerFragment() {
     companion object {
         fun newInstance() = VideosFragment()
     }
-
 
     @Inject
     lateinit var viewModelFactory: ViewModelFactory
@@ -57,54 +54,23 @@ class VideosFragment : DaggerFragment() {
         super.onViewCreated(view, savedInstanceState)
         bindAdapter()
         bindRecycler()
-        observeData()
         bindClicks()
+        bindRefresh()
+        observeData()
     }
-
 
     private fun bindAdapter() {
         adapter = VideosAdapter(dateManager)
         adapter.apply {
-            addLoadStateListener {
-                when {
-                    it.refresh is LoadState.Loading -> showLoading()
-                    it.refresh is LoadState.Error -> showError()
-                    it.prepend is LoadState.NotLoading -> showDataOrEmpty(itemCount)
-                }
-            }
             setOnItemClickListener {
                 openVideo(it)
             }
         }
     }
 
-    private fun showLoading() {
-        binding?.rvVideos?.isVisible = false
-        binding?.progressBar?.isVisible = true
-        binding?.btnUpdate?.isVisible = false
-        binding?.tvEmpty?.isVisible = false
-    }
-
-    private fun showError() {
-        binding?.rvVideos?.isVisible = false
-        binding?.progressBar?.isVisible = false
-        binding?.btnUpdate?.isVisible = true
-        binding?.tvEmpty?.isVisible = false
-    }
-
-    private fun showDataOrEmpty(itemCount: Int) {
-        binding?.rvVideos?.isVisible = itemCount >= 1
-        binding?.progressBar?.isVisible = false
-        binding?.btnUpdate?.isVisible = false
-        binding?.tvEmpty?.isVisible = itemCount < 1
-    }
-
-    private fun openVideo(item: Item) {
+    private fun openVideo(item: Video) {
         val bundle = Bundle()
-        bundle.putString(YOUTUBE_VIDEO_ID, item.id.videoId)
-        bundle.putString(DATE, item.snippet.publishTime)
-        bundle.putString(TITLE, item.snippet.title)
-        bundle.putString(DESCRIPTION, item.snippet.description)
+        bundle.putString(YOUTUBE_VIDEO_ID, item.tag)
 
         val navController =
             Navigation.findNavController(requireActivity(), R.id.nav_host_fragment)
@@ -113,22 +79,48 @@ class VideosFragment : DaggerFragment() {
 
     private fun observeData() {
         lifecycleScope.launch {
-            viewModel.load().collectLatest {
+            viewModel.videoData.collectLatest {
                 adapter.submitData(it)
+            }
+        }
+        lifecycleScope.launch {
+            adapter.loadStateFlow.collectLatest {
+                showState(it)
             }
         }
     }
 
+    private fun showState(loadState: CombinedLoadStates) {
+        binding!!.apply {
+            // show empty list.
+            val isListEmpty = loadState.refresh is LoadState.NotLoading && adapter.itemCount == 0
+            tvEmpty.isVisible = isListEmpty
+            // only show the list if refresh succeeds.
+            rvVideos.isVisible = !isListEmpty
+            // show progress bar during initial load or refresh.
+            swipe.isRefreshing = loadState.mediator?.refresh is LoadState.Loading
+            // show progress when error and list is empty
+            btnUpdate.isVisible =
+                loadState.mediator?.refresh is LoadState.Error && adapter.itemCount == 0
+        }
+    }
+
     private fun bindRecycler() {
-        binding?.rvVideos?.layoutManager = LinearLayoutManager(context)
-        binding?.rvVideos?.isNestedScrollingEnabled = true
-        binding?.rvVideos?.adapter = adapter
+        binding!!.apply {
+            rvVideos.layoutManager = LinearLayoutManager(context)
+            rvVideos.isNestedScrollingEnabled = true
+            rvVideos.adapter = adapter
+        }
     }
 
     private fun bindClicks() {
         binding?.btnUpdate?.setOnClickListener {
             adapter.retry()
         }
+    }
+
+    private fun bindRefresh() {
+        binding?.swipe?.setOnRefreshListener { adapter.refresh() }
     }
 
     override fun onDestroyView() {

@@ -11,7 +11,7 @@ object AndroidX {
     private const val lcLivedataVersion = "2.5.1"
     private const val lcViewModelVersion = "2.5.1"
     private const val navigationVersion = "2.5.2"
-
+    private const val roomVersion = "2.4.2"
 
     const val core = "androidx.core:core-ktx:$coreVersion"
     const val appcompat = "androidx.appcompat:appcompat:$appcompatVersion"
@@ -23,4 +23,10 @@ object AndroidX {
     const val lifecycleViewModel = "androidx.lifecycle:lifecycle-viewmodel-ktx:$lcViewModelVersion"
     const val navigationFragment = "androidx.navigation:navigation-fragment-ktx:$navigationVersion"
     const val navigationUi = "androidx.navigation:navigation-ui-ktx:$navigationVersion"
+    const val room = "androidx.room:room-runtime:$roomVersion"
+    const val roomKapt = "androidx.room:room-compiler:$roomVersion"
+    const val roomKtx = "androidx.room:room-ktx:$roomVersion"
+    const val roomPaging = "androidx.room:room-paging:$roomVersion"
+    const val lifecycleState =
+        "androidx.lifecycle:lifecycle-viewmodel-savedstate:$lcViewModelVersion"
 }

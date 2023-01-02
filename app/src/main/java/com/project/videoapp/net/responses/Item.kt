@@ -9,7 +9,7 @@ data class Item(
     @SerialName("etag")
     val etag: String,
     @SerialName("id")
-    val id: Id,
+    val id: Id? = null,
     @SerialName("kind")
     val kind: String,
     @SerialName("snippet")

@@ -4,27 +4,32 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.viewModels
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.YouTubePlayer
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.AbstractYouTubePlayerListener
 import com.project.videoapp.core.DateManager
 import com.project.videoapp.databinding.FragmentVideoBinding
+import com.project.videoapp.ui.viewmodel.ViewModelFactory
 import dagger.android.support.DaggerFragment
 import javax.inject.Inject
 
 
-class VideoFragment :DaggerFragment() {
+class VideoFragment : DaggerFragment() {
 
     companion object {
         fun newInstance() = VideoFragment()
         const val YOUTUBE_VIDEO_ID = "youtube_video_id"
-        const val DATE = "date"
-        const val TITLE = "title"
-        const val DESCRIPTION = "description"
     }
 
     @Inject
     lateinit var dateManager: DateManager
 
+    @Inject
+    lateinit var viewModelFactory: ViewModelFactory
+
+    private val viewModel: VideoViewModel by viewModels {
+        viewModelFactory
+    }
     private var binding: FragmentVideoBinding? = null
 
 
@@ -45,12 +50,20 @@ class VideoFragment :DaggerFragment() {
     private fun getInfoData() {
         arguments?.let { args ->
             val videoId = args.getString(YOUTUBE_VIDEO_ID) as String
-            val date = args.getString(DATE) as String
-            val title = args.getString(TITLE) as String
-            val description = args.getString(DESCRIPTION) as String
+            viewModel.getVideoInfo(videoId)
+        }
+        showDescription()
+    }
 
-            showVideo(videoId)
-            showDescription(date, title, description)
+
+    private fun showDescription() {
+        viewModel.video.observe(viewLifecycleOwner) {
+            binding?.apply {
+                tvDate.text = dateManager.getRuDateFormat(it.date)
+                tvTitle.text = it.title
+                tvDescription.text = it.description
+                showVideo(it.videoId ?: "")
+            }
         }
     }
 
@@ -61,14 +74,6 @@ class VideoFragment :DaggerFragment() {
                 youTubePlayer.loadVideo(videoId, 0f)
             }
         })
-    }
-
-    private fun showDescription(date: String, title: String, description: String) {
-        binding?.apply {
-            tvDate.text = dateManager.getRuDateFormat(date)
-            tvTitle.text = title
-            tvDescription.text = description
-        }
     }
 
     override fun onDestroyView() {

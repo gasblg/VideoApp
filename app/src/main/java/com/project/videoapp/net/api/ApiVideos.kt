@@ -7,11 +7,11 @@ interface ApiVideos {
 
     @GET("search")
     suspend fun getVideos(
+        @Query("key") apiKey: String,
         @Query("part") part: String,
         @Query("channelId") channelId: String,
         @Query("maxResults") maxResult: String,
-        @Query("key") apiKey: String,
-        @Query("order") date: String,
+        @Query("order") order: String,
         @Query("pageToken") pageToken: String? = null
     ): Response
 

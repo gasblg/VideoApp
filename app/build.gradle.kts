@@ -1,8 +1,8 @@
 plugins {
-    id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("kotlin-kapt")
     id("kotlinx-serialization")
+    id("com.android.application") version "7.3.1"
 }
 
 android {
@@ -49,6 +49,7 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+
     namespace = app.Config.pkg
 }
 
@@ -68,6 +69,7 @@ dependencies {
     implementation(deps.AndroidX.lifecycleExtensions)
     implementation(deps.AndroidX.lifecycleLivedata)
     implementation(deps.AndroidX.lifecycleViewModel)
+    implementation(deps.AndroidX.lifecycleState)
     implementation(deps.Google.material)
 
     // dagger
@@ -99,4 +101,11 @@ dependencies {
 
     // youtube
     implementation(deps.Youtube.player)
+
+    // room
+    implementation(deps.AndroidX.room)
+    kapt(deps.AndroidX.roomKapt)
+    implementation(deps.AndroidX.roomKtx)
+    implementation(deps.AndroidX.roomPaging)
+
 }

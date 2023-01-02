@@ -7,7 +7,7 @@
     <fragment
         android:id="@+id/videosFragment"
         android:name="com.project.videoapp.ui.fragments.videos.VideosFragment"
-        android:label="VideosFragment" >
+        android:label="VideosFragment">
         <action
             android:id="@+id/action_videosFragment_to_videoFragment"
             app:destination="@id/videoFragment" />
@@ -17,13 +17,6 @@
     <fragment
         android:id="@+id/videoFragment"
         android:name="com.project.videoapp.ui.fragments.video.VideoFragment"
-        android:label="VideoFragment" >
-
-
-        <action
-            android:id="@+id/action_call_B"
-            app:destination="@+id/videosFragment"
-            app:popUpTo="@id/videoFragment"
-            app:popUpToInclusive="true" />
+        android:label="VideoFragment">
     </fragment>
 </navigation>

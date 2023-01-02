@@ -13,7 +13,7 @@ data class Response(
     @SerialName("kind")
     val kind: String,
     @SerialName("nextPageToken")
-    val nextPageToken: String,
+    val nextPageToken: String? = null,
     @SerialName("prevPageToken")
     val prevPageToken: String? = null,
     @SerialName("pageInfo")

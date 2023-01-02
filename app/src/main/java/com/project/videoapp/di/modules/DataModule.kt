@@ -1,29 +1,54 @@
 package com.project.videoapp.di.modules
 
-
+import android.app.Application
+import com.project.videoapp.data.database.db.AppDataBase
+import com.project.videoapp.data.mappers.VideoMapper
+import com.project.videoapp.data.mappers.VideoMapperImpl
 import com.project.videoapp.data.repo.VideosRepo
 import com.project.videoapp.data.repo.VideosRepoImpl
-import com.project.videoapp.data.source.VideosDataSource
-import com.project.videoapp.data.source.VideosDataSourceImpl
 import com.project.videoapp.net.api.ApiVideos
 
 import dagger.Module
 import dagger.Provides
+import kotlinx.coroutines.CoroutineDispatcher
+import kotlinx.coroutines.Dispatchers
 import retrofit2.Retrofit
+import javax.inject.Qualifier
+import javax.inject.Singleton
 
+@Qualifier
+@Retention(AnnotationRetention.RUNTIME)
+annotation class IoDispatcher
 
 @Module
 class DataModule {
 
 
     @Provides
-    fun provideRepo(datasource: VideosDataSource): VideosRepo {
-        return VideosRepoImpl(datasource)
+    fun provideRepo(
+        dataBase: AppDataBase,
+        retrofit: Retrofit,
+        videoMapper: VideoMapper,
+    ): VideosRepo {
+        return VideosRepoImpl(
+            dataBase,
+            retrofit.create(ApiVideos::class.java),
+            videoMapper
+        )
     }
 
     @Provides
-    fun provideDataSource(retrofit: Retrofit): VideosDataSource {
-        return VideosDataSourceImpl(retrofit.create(ApiVideos::class.java))
+    fun provideMapper(): VideoMapper {
+        return VideoMapperImpl()
     }
 
+    @Provides
+    @Singleton
+    fun providesDB(app: Application): AppDataBase {
+        return AppDataBase.invoke(app.applicationContext)
+    }
+
+    @Provides
+    @IoDispatcher
+    fun providesIODispatcher(): CoroutineDispatcher = Dispatchers.IO
 }
