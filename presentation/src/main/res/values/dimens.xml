@@ -1,0 +1,8 @@
+<resources>
+
+    <dimen name="content_margin">16dp</dimen>
+    <dimen name="content_margin_half">8dp</dimen>
+
+    <dimen name="content_size">48dp</dimen>
+
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">VideoApp</string>
+    <string name="update">Update</string>
+    <string name="list_is_empty">List is empty</string>
+</resources>

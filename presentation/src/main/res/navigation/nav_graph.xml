@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/videosFragment">
+
+    <fragment
+        android:id="@+id/videosFragment"
+        android:name="com.github.gasblg.videoapp.presentation.ui.fragments.videos.VideosFragment"
+        android:label="Videos">
+        <action
+            android:id="@+id/action_videosFragment_to_videoFragment"
+            app:destination="@id/videoFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/videoFragment"
+        android:name="com.github.gasblg.videoapp.presentation.ui.fragments.video.VideoFragment"
+        android:label="Video">
+    </fragment>
+</navigation>

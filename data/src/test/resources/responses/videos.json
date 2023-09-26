@@ -1,0 +1,1712 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "b15nYOPAey_u7UDD7R2vZeWvCxk",
+  "nextPageToken": "CDIQAA",
+  "regionCode": "RU",
+  "pageInfo": {
+    "totalResults": 2245,
+    "resultsPerPage": 50
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "cBsEs1F65kodYTF3ys3MhW3lJ08",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "rdtBudmc03M"
+      },
+      "snippet": {
+        "publishedAt": "2023-08-09T21:00:29Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "Now in Android: 88 - Android Studio Giraffe, K2 compiler, and Jetpack Compose Live Edit",
+        "description": "Welcome to Now in Android, your ongoing guide to what's new and notable in the world of Android development. Today, we're ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rdtBudmc03M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rdtBudmc03M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rdtBudmc03M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-08-09T21:00:29Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_QAq3eZsHtyucLdIJ-YuN9P3PyU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "y3HkVAqNA0k"
+      },
+      "snippet": {
+        "publishedAt": "2023-08-02T16:00:47Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "#WeArePlay | Ayushi and Nikhil | Alippo | India",
+        "description": "Meet Ayushi and Nikhil from Bengaluru, India. The husband and wife duo founded Alippo to provide an educational platform for ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/y3HkVAqNA0k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/y3HkVAqNA0k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/y3HkVAqNA0k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-08-02T16:00:47Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZP_cJjz0P323HcbELqlqWTGM6KA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "0SLeHtlqjrI"
+      },
+      "snippet": {
+        "publishedAt": "2023-07-26T18:00:02Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "Now in Android: 87 - Android 14 Beta 4, Google Play policy update, and Compose Performance!",
+        "description": "Welcome to Now in Android, your ongoing guide to what's new and notable in the world of Android development. Today, we're ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0SLeHtlqjrI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0SLeHtlqjrI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0SLeHtlqjrI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-07-26T18:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0aDdhJPv4DeAZiE3385eecRG7j0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "tVsAGGRR4Bc"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-20T17:00:05Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "Top 3 things to know from Google Play at Google I/O &#39;23",
+        "description": "There are so many things to share from Google I/O 2023 and in this video, Matthew McGriskin will discuss the top 3 Google Play ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tVsAGGRR4Bc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tVsAGGRR4Bc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tVsAGGRR4Bc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-20T17:00:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "dLr5PVZ0WeDe2scH0-TCdxwdhZg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "L3gFW97pn-s"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-13T17:00:04Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "Top 3 things to know in Multi-device for Android at Google I/O &#39;23",
+        "description": "There are so many things to share from Google I/O 2023 and in this video, Sara Hamilton will discuss the top 3 Multi-device ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/L3gFW97pn-s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/L3gFW97pn-s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/L3gFW97pn-s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-13T17:00:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "kk0JdFuu0pwDOyBl_EyO5nirBSY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "zaUwrj9qlOY"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-06T19:32:54Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "Top 3 things to know in Platform and App Quality at Google I/O &#39;23",
+        "description": "There are so many things to share from Google I/O 2023 and in this video, Dan Galpin will discuss the top 3 Android Platform and ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zaUwrj9qlOY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zaUwrj9qlOY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zaUwrj9qlOY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-06T19:32:54Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "1PUuiK9w8dCpdJ8ep22W5RoToUg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "2qf3m868Fd0"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-01T15:00:58Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "#WeArePlay | Tessa and Saasha | Olio | UK",
+        "description": "Meet Tessa and Saasha from the UK, best friends and co-founders of Olio. The app helps millions fight waste by giving-away, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2qf3m868Fd0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2qf3m868Fd0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2qf3m868Fd0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-01T15:00:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ebDLbxNWZmHMkiqYmnIT7nysNgI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "B91ztNPq_cs"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-30T15:00:06Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "Top 3 things to know in Modern Android Development at Google I/O &#39;23",
+        "description": "There are so many things to share from Google I/O 2023 and in this video, Rebecca Franks will discuss the top 3 Modern Android ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/B91ztNPq_cs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/B91ztNPq_cs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/B91ztNPq_cs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-30T15:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8QLeG-dHjDztwtDtAeQTyBRCtis",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "quY2B_6shy0"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-10T21:31:48Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "Dropbox took 40% less time to rebuild search feature using Compose",
+        "description": "Learn more about how the Android engineering team at Dropbox rebuilt their home screen, file preview, and search experiences ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/quY2B_6shy0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/quY2B_6shy0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/quY2B_6shy0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-10T21:31:48Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "jT2ZrPYcuXtjChPcmyRuSCr_Mlg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "kfbXQbt7TBg"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-10T20:46:22Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "Meet Studio Bot - the AI powered coding assistant in Android Studio",
+        "description": "Studio Bot is an AI powered coding assistant that is tightly integrated in Android Studio, designed to make you more productive.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kfbXQbt7TBg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kfbXQbt7TBg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kfbXQbt7TBg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-10T20:46:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "wThp7YSxp_mqa8XXSmRhYWgEKUo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "XP7saG2QqJA"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-10T20:38:20Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "What&#39;s new in Google Play",
+        "description": "Learn about the latest tools and updates designed to help you grow your business on Google Play. To watch this Keynote ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XP7saG2QqJA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XP7saG2QqJA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XP7saG2QqJA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-10T20:38:20Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Mb5elWxeivbWJEDUgV37KxA9WuQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "qXhjN66O7Bk"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-10T20:37:11Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "What&#39;s new in Android",
+        "description": "Get the latest news on everything happening in the world of Android development: Android 14, form factors, Jetpack, Compose, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qXhjN66O7Bk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qXhjN66O7Bk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qXhjN66O7Bk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-10T20:37:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Ewo0eoB9Q3QPbXJt2cG_WaW8fb8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Cl5y65Yy4kM"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-25T16:00:51Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "#WeArePlay | Maria, AnnMaria and Dennis | 7 Generation Games | USA",
+        "description": "Meet Maria, AnnMaria and Dennis from Minnesota. They started 7 Generation Games to make education fun for kids in rural or ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Cl5y65Yy4kM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Cl5y65Yy4kM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Cl5y65Yy4kM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-25T16:00:51Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "iO2JUJZ6rvVE-7zVskyz-WiCX3k",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "LKtXc08x7Bw"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-18T16:06:54Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "Build engaging apps - App growth",
+        "description": "Do your users drift away after a few weeks or months? Are you showing your users the value of your app and regularly guiding ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LKtXc08x7Bw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LKtXc08x7Bw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LKtXc08x7Bw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-18T16:06:54Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "3pZGkz52zi05qwUEXFZEBsJHsPU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "41VZhwrXAKI"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-13T23:27:40Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "What&#39;s new in Android Studio - Flamingo",
+        "description": "Android Studio Flamingo version 2022.2.1 is now available for download on the stable channel. In this version, you can find ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/41VZhwrXAKI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/41VZhwrXAKI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/41VZhwrXAKI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-13T23:27:40Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "o3wnaH8RXOKPtDxSEeLMsOog2J8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "80JDlAheU5M"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-04T16:03:00Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "Offer the right subscription - App growth",
+        "description": "Are you matching the value that your application offers to users with the right subscriptions? If you aren't, you could be losing out ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/80JDlAheU5M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/80JDlAheU5M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/80JDlAheU5M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-04T16:03:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "rUccaAgSpEhRawbQshaxw3T9_wY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "mQFmqEJ-miQ"
+      },
+      "snippet": {
+        "publishedAt": "2023-03-09T19:24:32Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "Here&#39;s the latest in Android Developers this month!",
+        "description": "Missed #TheAndroidShow earlier? Here are the three big things we covered, happening in the world of Android development ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mQFmqEJ-miQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mQFmqEJ-miQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mQFmqEJ-miQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-03-09T19:24:32Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZfM-XXZ0L-sG_7Cs6-tQu-rj9nE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "nc8r32Tpa7k"
+      },
+      "snippet": {
+        "publishedAt": "2023-03-09T19:17:58Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "#TheAndroidShow: Large screens, Jetpack Compose and more!",
+        "description": "Join us on March 9 at 10AM PT for another episode of #TheAndroidShow; in this episode, we'll unpack the latest Android ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nc8r32Tpa7k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nc8r32Tpa7k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nc8r32Tpa7k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-03-09T19:17:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "wtbvAjSxRDKWJKNh5lfd2FGxXBI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "5XilhUqYsu4"
+      },
+      "snippet": {
+        "publishedAt": "2023-03-09T17:44:07Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "#TheAndroidShow: the latest in foldables from MWC, get started building!",
+        "description": "In this segment from #TheAndroidShow, Google Developer Expert Madona Wambua discovers the latest innovations in foldables, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5XilhUqYsu4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5XilhUqYsu4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5XilhUqYsu4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-03-09T17:44:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZHtvAdkTH8ylS7uBvl09qEWWTHk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "HT9DpbtnAYw"
+      },
+      "snippet": {
+        "publishedAt": "2023-03-08T17:18:24Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "#WeArePlay | Ania | Rootd | Canada",
+        "description": "Meet Ania from Victoria, Canada. She founded Rootd to give everyone access to tools and techniques that support mental health.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HT9DpbtnAYw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HT9DpbtnAYw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HT9DpbtnAYw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-03-08T17:18:24Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Ja3jh5aiI-ThOcNlrwNMNpg3D9I",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "y8OWpQoEa8g"
+      },
+      "snippet": {
+        "publishedAt": "2023-03-06T21:26:52Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "Tune in on March 9 for #TheAndroidShow: Large screens, foldables, Jetpack Compose &amp; more!",
+        "description": "Tune in March 9 at 10AM PT for another episode of #TheAndroidShow; in this episode, we'll unpack the latest Android foldables ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/y8OWpQoEa8g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/y8OWpQoEa8g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/y8OWpQoEa8g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-03-06T21:26:52Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0a4Kufvk6DQ-O74GIASBsYe2pMc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "OeC5jMV342A"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-13T17:02:21Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "Constraints and modifier order - MAD Skills",
+        "description": "Modifiers in Compose can be chained and the order in which we do so matters. But how exactly does it matter? In this MAD Skills ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OeC5jMV342A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OeC5jMV342A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OeC5jMV342A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-13T17:02:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5qEThGYCrpEvLo0yxfNbItVUUwk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cQ-8zxORYHo"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-07T17:07:38Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "#WeArePlay | Valentin | Gronda | Austria",
+        "description": "Meet Valentin from Innsbruck, Austria. He co-founded Gronda, a place where chefs can share their recipes and bring the world's ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cQ-8zxORYHo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cQ-8zxORYHo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cQ-8zxORYHo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-07T17:07:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_Cw_OfbmX7u2k4zh1jNp5qa_oDI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xc8nAcVvpxY"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-31T00:00:35Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "Fundamentals of Compose Layouts and Modifiers - MAD Skills",
+        "description": "In this video of Compose Layouts and Modifiers, Simona will talk about the fundamentals - how Layouts and Modifiers work ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xc8nAcVvpxY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xc8nAcVvpxY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xc8nAcVvpxY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-31T00:00:35Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "SsrTmKrq80F5qa-zV-prSDkAWuI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "o6OQh1_PFsw"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-18T22:00:16Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "Now in Android: 75 - Android Studio Electric Eel, Architecture, Kotlin Multiplatform, and more!",
+        "description": "Welcome to Now in Android, your ongoing guide to what's new and notable in the world of Android development. Today, we're ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/o6OQh1_PFsw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/o6OQh1_PFsw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/o6OQh1_PFsw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-18T22:00:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "sE-vYbaNJnYN50EWV7GwWdY1nsA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "I4rDx90Nlus"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-06T20:21:16Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "CameraX concepts",
+        "description": "In this video, we'll take a look at the CameraX Jetpack library, which is the easiest way to add rich camera functionality to your ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/I4rDx90Nlus/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/I4rDx90Nlus/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/I4rDx90Nlus/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-06T20:21:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "dBy1Cx3f6Grizi3eE6cg0WyWeec",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4OrzjJ4dTMw"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-29T18:35:44Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "Optimize paywall conversion - App growth",
+        "description": "Subscription paywalls are often treated as one-off product feature: something developed, shipped and then forgotten. However ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4OrzjJ4dTMw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4OrzjJ4dTMw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4OrzjJ4dTMw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-29T18:35:44Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZbAn-fCUUpalXAM38Za0nO2V7tY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "rtX3DujJPZk"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-21T17:09:33Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "Engage with push notifications - App growth",
+        "description": "For many apps, chances are that a user won't return after their first session. Therefore, the first few days are your big chance to ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rtX3DujJPZk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rtX3DujJPZk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rtX3DujJPZk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-21T17:09:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "HqHXhRdsHLtlWTpAxn7dWPa1AL4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "uRfMcO7pwfk"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-16T14:00:34Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "Android developers: a big thank you for a great ‘22!",
+        "description": "This past year was a special one for the Android community, from the release of Android 13, a big investment in tablets and large ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uRfMcO7pwfk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uRfMcO7pwfk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uRfMcO7pwfk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-16T14:00:34Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "bi_W2JlwZBWhXFE5HeJaQz_8ikI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "J7KUIFKKSrc"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-15T16:31:37Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "#WeArePlay | Anshul, Meet and Harsh | Stamurai | India",
+        "description": "Meet Anshul, Meet and Harsh from Delhi, India. They founded Stamurai Speech Therapy to help thousands of people around the ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/J7KUIFKKSrc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/J7KUIFKKSrc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/J7KUIFKKSrc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-15T16:31:37Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "RCXvuoi6QtCCQRVFeGgrSWqTb6I",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BgQLwjWTpi8"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-08T17:40:18Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "Embrace hybrid monetization - App growth",
+        "description": "Relying on a single way of monetizing your app – using only subscriptions or in-app purchases – could mean you miss -out on ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BgQLwjWTpi8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BgQLwjWTpi8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BgQLwjWTpi8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-08T17:40:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9nAcTh5bnaaTIjglNQ0_Z39XU6E",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Xvjxr0lkcjE"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-01T21:11:43Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "Boost user activation and commitment - App growth",
+        "description": "The average app loses 77% of new users within three days of install. Meaning that many users don't make it far enough to ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Xvjxr0lkcjE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Xvjxr0lkcjE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Xvjxr0lkcjE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-01T21:11:43Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "OBsKFHKK1MRLfOPSMQqY9GqPcSw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "fK5OLEP0DdE"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-29T20:03:22Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "Improve user onboarding for Google Play",
+        "description": "Is your app behaving like a leaky bucket? Do you keep pumping money into user acquisition but find that you're not growing your ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fK5OLEP0DdE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fK5OLEP0DdE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fK5OLEP0DdE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-29T20:03:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Jm4UGx62kwygR3mQarI9COL1wMc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "wBx3-ZObxY8"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-21T22:05:56Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "Migrate your apps to Android 13",
+        "description": "Each new release of Android comes with platform behavior changes that your app needs to account for; some of these changes ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wBx3-ZObxY8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wBx3-ZObxY8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wBx3-ZObxY8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-21T22:05:56Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ych0fpADIoIMuFplpzeqNH77BKo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "jUU62x5Czcw"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-17T16:03:33Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "#WeArePlay | Filipe | Aoca Game Lab | Brazil",
+        "description": "Meet Filipe from Salvador, Brazil. He co-founded Aoca Game Lab to share Brazilian culture and history with the world.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jUU62x5Czcw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jUU62x5Czcw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jUU62x5Czcw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-17T16:03:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "3TMmKptS8QOIaDRaJ1iN3TiEnMM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "XFgRy3kNXsM"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-17T14:00:30Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "What can make or break someone’s user experience?",
+        "description": "Your app's UI may look simple – just some images and buttons. But even the simplest-looking UI may pose accessibility ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XFgRy3kNXsM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XFgRy3kNXsM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XFgRy3kNXsM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-17T14:00:30Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6YwnScX__lKtHmPjuXv70wBvqYo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8rskzBTNpa8"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-16T18:25:03Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "Google Play PolicyBytes - Actualizaciones de la Política de Noviembre de 2022 (Spanish Latam)",
+        "description": "Jessie, Strategic Partnerships Manager de Google Play, cubre nuevas políticas, actualizaciones recientes y recordatorios ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8rskzBTNpa8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8rskzBTNpa8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8rskzBTNpa8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-16T18:25:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "bINbahh6a_XqT6FIM3wp_YsBH7w",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "SUtoGP0to9o"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-16T18:23:20Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "Google Play PolicyBytes - Atualizações de Política de Novembro de 2022 (Portuguese-Brazil)",
+        "description": "Gus, Gerente Regional de Operações de Trust & Safety da Google Play, fala sobre novas políticas, atualizações recentes e ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SUtoGP0to9o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SUtoGP0to9o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SUtoGP0to9o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-16T18:23:20Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0nYsHz6JZUYUCBHVOW4zlgJszzc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "PGU1xTUXcGE"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-16T18:20:02Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "Google Play PolicyBytes - November 2022 policy updates",
+        "description": "Theresa, Product Marketing Manager for Android and Google Play, shares important updates from our November 2022 Google ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/PGU1xTUXcGE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/PGU1xTUXcGE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/PGU1xTUXcGE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-16T18:20:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "UCpmjOAE6uUWvu6rp906vdPSCVY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "fxGaEQFW4TU"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-15T15:10:51Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "Go Global: Connect with players during Ramadan",
+        "description": "Nearly 2 billion Muslims globally observe the holy month of Ramadan, which, in 2023, is observed between \u200b\u200bMarch 22 and ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fxGaEQFW4TU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fxGaEQFW4TU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fxGaEQFW4TU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-15T15:10:51Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2z-Yp-_HFqIcuZOkk9GBUxQmPT4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "iOc6-AzF5-I"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-15T00:24:02Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "Top 3 picks from the Platform track at ADS ‘22",
+        "description": "If you missed what's happening in the world of Platform, Dan presents the top three picks to know from Android Developer Summit ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iOc6-AzF5-I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iOc6-AzF5-I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iOc6-AzF5-I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-15T00:24:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "a8l6xa5LWoc2cAyMi3TR8n1Vsfw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "IfATbp0CQd8"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-10T17:07:12Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "Do more with multi-window and activity embedding",
+        "description": "We used to think that users will see and interact with one activity at any given moment. Starting with Android 12L, that assumption ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/IfATbp0CQd8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/IfATbp0CQd8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/IfATbp0CQd8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-10T17:07:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "bKcAlOVp6aeGsstulFxt8pwWfQ0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "FI-89URX9XU"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-01T17:26:26Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "Learn Android Development with Jetpack Compose #Shorts",
+        "description": "Join Compose Camp in-person or virtual → https://goo.gle/join-compose-camp Subscribe to Android Developers ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FI-89URX9XU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FI-89URX9XU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FI-89URX9XU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-01T17:26:26Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "4HB3gGZRq5txlSeTAAM55FsjNb8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "mF70xDewzX0"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-31T17:06:30Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "Learn Jetpack Compose at Compose Camp",
+        "description": "Learn how to build Android apps using Jetpack Compose, Android's modern UI toolkit, alongside your peers at Compose Camp.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mF70xDewzX0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mF70xDewzX0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mF70xDewzX0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-31T17:06:30Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "FFScPu5ioQ3rw9fbJDuWHhd-ycI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BjGX2RftXsU"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-25T18:15:46Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "Compose Modifiers deep dive",
+        "description": "A deep dive into the history of Modifiers and the constraints of APIs. As well as the problems they are meant to solve leading up to ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BjGX2RftXsU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BjGX2RftXsU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BjGX2RftXsU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-25T18:15:46Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Jzdk87emknPRJhhGef1fqN8Y9Ts",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xcfEQO0k_gU"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-25T18:16:09Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "Custom layouts and graphics in Compose",
+        "description": "Jetpack Compose offers a variety of out-of-the-box solutions to quickly and easily build screens from scratch. But what happens ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xcfEQO0k_gU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xcfEQO0k_gU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xcfEQO0k_gU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-25T18:16:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZkJ7xJttIXr6mkek6F4Jc_EDIz0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "QO6Cg9MSpE8"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-24T16:00:26Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "Android Dev Story: Lyft reduced their code for UI components by as much as 60% using Jetpack Compose",
+        "description": "Multiple teams at Lyft used Jetpack Compose to replace some of their legacy frameworks, reduce boilerplate code, and streamline ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/QO6Cg9MSpE8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/QO6Cg9MSpE8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/QO6Cg9MSpE8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-24T16:00:26Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "C3dZqZ-7gB5MrUrhCSLN9zcw_1M",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "6hNXFs1fYaY"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-24T16:00:05Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "Collecting flows in a lifecycle-aware manner",
+        "description": "Collecting flows in a lifecycle-aware manner is the recommended way to collect flows on Android. In this talk, we explore the ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/6hNXFs1fYaY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/6hNXFs1fYaY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/6hNXFs1fYaY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-24T16:00:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "59P7eJXBdJj2kAhIFL6agL7QQqI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "fUvct-zUfeI"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-24T16:00:34Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "Android Developer Story: ZEPETO plans to migrate 80% of the app’s UI to Jetpack Compose",
+        "description": "The ZEPETO team at Naver Z has been migrating different parts of the app from Views to Jetpack Compose. They added 230+ ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fUvct-zUfeI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fUvct-zUfeI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fUvct-zUfeI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-24T16:00:34Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZMoGMsRCIciTm0rDklAD_LCGlC0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "qX6zmKY4KP0"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-24T16:00:29Z",
+        "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
+        "title": "Building a scalable, modularized, testable app from scratch",
+        "description": "If you're building an app from scratch or looking to update your app to follow modern Android development best practices, this talk ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qX6zmKY4KP0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qX6zmKY4KP0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qX6zmKY4KP0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Android Developers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-24T16:00:29Z"
+      }
+    }
+  ]
+}
